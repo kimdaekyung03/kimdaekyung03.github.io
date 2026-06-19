@@ -5,7 +5,7 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/profile.png"
+  image: "assets/img/profile.jpg"
   image_alt: "김대경"
   before_title: "환영합니다, <b>제 이름은</b>"
   title: "<b>DaeKyung</b> Kim"
@@ -105,74 +105,36 @@ resume:
   bg_title: "History"
 
   education:
-    title: "Education"
+    title: "학력"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "한국폴리텍대학 강서캠퍼스"
+        subname: "사이버보안과"
+        period: "2025 - <b>재학중</b>"
+        text: "네트워크 보안, 시스템 보안, 데이터 베이스 기초 지식 등 사이버 보안의 기초 지식을 배우고 있습니다."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "운전면허 2종 보통"
+        subname: "한국도로교통공단"
+        period: "2020-07"
+        text: "한국의 운전면허를 취득하였습니다."
 
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "공동주택 IT 안전관리사 2급"
+        subname: "한국 홈네트워크 안전관리협회"
+        period: "2025-09-23"
+        text: "공동주택의 IT 시스템에 대한 안전관리에 관한 자격증을 취득하였습니다."
 
   experience:
     title: "Experience"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "융합프로젝트"
+        subname: "한국폴리텍대학 강서캠퍼스"
+        period: "2026.03 - 2026.06"
+        text: "랜섬웨어의 VSS스냅샷 삭제 공격을 방지하고 사용자의 데이터를 실시간으로 안전하게 보호하는 고성능 방어엔진(LIRS) 개발."
 
 
-### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
-
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
+      - name: "춘계 종합학술대회 논문 발표"
+        subname: "한국정보통신학회 2026년 춘계"
+        period: "2026.04 - 2026.05"
+        text: "WannaCry 랜섬웨어 : EternalBlue 취약점 분석 및 방어 전략 2026년 한국정보통신학회 춘계 종합학술대회 논문집 춘계 30권 1호 등재."
 
 ### Pricing [ pricing ]
 pricing:
@@ -237,17 +199,6 @@ pricing:
         link: "#contact-section"
 
 
-### Blog [ blog ]
-#items generates from dir /_posts/*
-blog:
-  title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
-  bg_title: "Blog"
-  button:
-    label: "View Blog"
-    link: "blog/"
-
-
 ### Contact [ contacts ]
 contacts:
   title: "Contact Me"
@@ -257,19 +208,19 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
+      text: "Gimpo-si, Gueonggi-do, Republic of Korea"
 
-    - label: "Freelance"
+    - label: "University student"
       icon: "far fa-user"
       text: "Available Right Now"
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "kimdk033@naver.com"
 
     - label: "Phone"
       icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+      text: "+82 010 - 5955 - 5015"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
